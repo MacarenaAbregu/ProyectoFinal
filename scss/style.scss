@@ -1,0 +1,183 @@
+
+@import'/scss/header'
+
+.hola{
+
+    background-color: #80ee1a;
+}
+ul{
+    background-color: #fdf9f9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style: none;
+    height: 35px;
+  }
+  
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background: #f1a0ef;
+    background: -webkit-gradient(linear, left top, right top, color-stop(19%, #f1a0ef), color-stop(26%, #e0afc4), color-stop(53%, #f5bfd3), to(#98d7e4));
+    background: linear-gradient(90deg, #f1a0ef 19%, #e0afc4 26%, #f5bfd3 53%, #98d7e4 100%);
+  }
+  
+  .carousel-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+  }
+  
+  p {
+    font-style: initial;
+  }
+  
+  li {
+    -webkit-text-decoration: #f102f1;
+            text-decoration: #f102f1;
+    display: inline;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center space-between;
+        -ms-flex-pack: center space-between;
+            justify-content: center space-between;
+  }
+  
+  ._headerfoto{
+    max-width: 50px;
+    max-height: 50px;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  
+  ._headerfoto:hover {
+    padding-left: 10px;
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+  }
+  
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .img {
+    -webkit-margin-after: 10px;
+            margin-block-end: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+  }
+  
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    background-image: url("../CoderHouse-Proyecto/images/miniso.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .cajita {
+    height: 240px;
+    width: 200px;
+    background-color: brown;
+    border: 3px solid black;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .cajita img {
+    width: 100px;
+  }
+  
+  h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+  }
+  
+  .imagenes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (2fr)[2];
+        grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-column-gap: 10px;
+    margin-top: 10px;
+  }
+  
+  ul li a:hover {
+    background-color: #b83e3e;
+    padding: 11px;
+  }
+  
+  div img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  @-webkit-keyframes movimiento {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: brown;
+    }
+    100% {
+      background-color: #80ee1a;
+    }
+  }
+  
+  @keyframes movimiento {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: brown;
+    }
+    100% {
+      background-color: #80ee1a;
+    }
+  }
+  
+  @media screen and (max-width: 786px) {
+    .img {
+      height: 100%;
+    }
+    iframe {
+      width: 100%;
+    }
+  }
+  
